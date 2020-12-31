@@ -11,4 +11,6 @@ Disaster tweet classification
 - At the initial I considered baseline model by using naive bayes model on the train and test dataset. 
 - To improve the model, I further consider one of the transformers models know as **BERT** which is pretrained model. I had to fine-tuned the model to solve my  problem. 
 - The transformers models are known to be state of the art models for most NLP tasks. From the notebook, I had implemented cross-validation techniques to ascertain a more 
-robust model for generalization. I had an accuracy of 97$\%$ wnen I implemented the bert model  
+robust model for generalization. I had an accuracy of 97% wnen I implemented the bert model. [NOTEBOOK](Disaster_tweet_classification.ipynb) 
+
+- I had to trained this using google colab in order to have access to gpu. 
